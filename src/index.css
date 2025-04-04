@@ -1,9 +1,33 @@
 @import "tailwindcss";
 
 .spotlight-bg {
-  background: radial-gradient(to bottom, rgb(73, 13, 2) 2%, rgb(172, 66, 5) 40%);
+  background: radial-gradient(
+    to bottom,
+    rgb(73, 13, 2) 2%,
+    rgb(172, 66, 5) 40%
+  );
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .hero {
-  background-image: linear-gradient(to top ,  rgb(172, 66, 5) 2%, rgb(73, 13, 2) 40%, rgb(36, 7, 1) 80%);
+  background-image: linear-gradient(
+    to top,
+    rgb(172, 66, 5) 2%,
+    rgb(73, 13, 2) 40%,
+    rgb(36, 7, 1) 80%
+  );
+}
+.bg {
+  background-image: linear-gradient(
+    to top,
+    rgb(172, 66, 5) 2%,
+    rgb(73, 13, 2) 40%
+  );
+}
+
+.text {
+  color: #ff4f00;
 }
